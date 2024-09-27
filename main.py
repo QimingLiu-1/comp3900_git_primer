@@ -10,9 +10,5 @@ def home():
 def calculator():
     return render_template('calculator.html')
 
-@app.route("/")
-def index():
-    return "Welcome to COMP3900 and COMP9900!"
-
 if __name__ == '__main__':
     app.run(debug=True)
